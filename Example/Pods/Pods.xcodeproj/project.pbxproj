@@ -42,19 +42,19 @@
 		2AA69DAC7EF44DFB18415C579C822557 /* Pods-BhoomiFramework_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BhoomiFramework_Tests-umbrella.h"; sourceTree = "<group>"; };
 		30765973C79733C2CF5F055A74651FF4 /* Pods-BhoomiFramework_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BhoomiFramework_Example-dummy.m"; sourceTree = "<group>"; };
 		33621C5292A9F564408F104620AA7034 /* Pods-BhoomiFramework_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BhoomiFramework_Example-Info.plist"; sourceTree = "<group>"; };
-		35D5153AF0BE3BD44B8895B56033098E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		35D5153AF0BE3BD44B8895B56033098E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		364524FD4A1FE783D52740C511D19D23 /* Pods-BhoomiFramework_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BhoomiFramework_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		38751E054C5CE8DD4571A2E83F562F4C /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = BhoomiFramework/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		3B239FA516E30B2947FFD5A4138AA37C /* Pods-BhoomiFramework_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BhoomiFramework_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		468BC7A6DD00EFCB24FC162E517611FE /* Pods-BhoomiFramework_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BhoomiFramework_Example.release.xcconfig"; sourceTree = "<group>"; };
-		564C0DF0B02A13A77EEA1D3D816D84E5 /* Pods_BhoomiFramework_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BhoomiFramework_Tests.framework; path = "Pods-BhoomiFramework_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		564C0DF0B02A13A77EEA1D3D816D84E5 /* Pods_BhoomiFramework_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BhoomiFramework_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		578BD2244D0F25F2A5E2BBCACA77E914 /* Pods-BhoomiFramework_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BhoomiFramework_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		5B42A11337A7B8BDF386FACCCB34B873 /* Pods-BhoomiFramework_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BhoomiFramework_Example-umbrella.h"; sourceTree = "<group>"; };
 		5B63B9E18ADEA384EB3C13EAC5C76007 /* Pods-BhoomiFramework_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BhoomiFramework_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		5D8CE8BE7A253ED3979C2404B8467A29 /* Pods-BhoomiFramework_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BhoomiFramework_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		64F19AF2955BF29CE269723EDB697CB0 /* BhoomiFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BhoomiFramework.release.xcconfig; sourceTree = "<group>"; };
 		6C969BCD1531572C74BB265D5B9350AE /* BhoomiFramework-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BhoomiFramework-Info.plist"; sourceTree = "<group>"; };
-		6E6A7C6550D2355839B0AB949FCFB0E3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		6E6A7C6550D2355839B0AB949FCFB0E3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		6F8AFFFAE7D0AF624350E19B98ACEEAE /* Pods-BhoomiFramework_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BhoomiFramework_Tests-dummy.m"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		78473273FB8234216259ECC166358F73 /* BhoomiFramework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BhoomiFramework-umbrella.h"; sourceTree = "<group>"; };
@@ -62,13 +62,13 @@
 		8FCF42AFFD88760D7706C4819534EDD6 /* Pods-BhoomiFramework_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BhoomiFramework_Tests.modulemap"; sourceTree = "<group>"; };
 		9748B9AFFC63C8844A79CD723481EED6 /* BhoomiFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BhoomiFramework.debug.xcconfig; sourceTree = "<group>"; };
 		97BDBD4D6B84BA9E1E8F98F440534122 /* Pods-BhoomiFramework_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BhoomiFramework_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A5A162381795E8CBA79417A360FD9D9D /* BhoomiFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BhoomiFramework.framework; path = BhoomiFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A5A162381795E8CBA79417A360FD9D9D /* BhoomiFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BhoomiFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D49A00DEA98BEBE9EEE2C2873DDF85E4 /* BhoomiFramework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BhoomiFramework-prefix.pch"; sourceTree = "<group>"; };
-		D7E060394818B980A9C09F13633237D9 /* BhoomiFramework.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = BhoomiFramework.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D7E060394818B980A9C09F13633237D9 /* BhoomiFramework.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = BhoomiFramework.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		DF5FF7BA0D4FB09303D1F9237B0FC742 /* BhoomiFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BhoomiFramework-dummy.m"; sourceTree = "<group>"; };
 		E545FAED66012849F19DD2CD7A96C355 /* BhoomiFramework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BhoomiFramework.modulemap; sourceTree = "<group>"; };
-		F2CC8D3CC269764013A88B3DC9F1945F /* Pods_BhoomiFramework_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BhoomiFramework_Example.framework; path = "Pods-BhoomiFramework_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2CC8D3CC269764013A88B3DC9F1945F /* Pods_BhoomiFramework_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BhoomiFramework_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F65E9D484DF27E6F67CF2B738A51EC65 /* Pods-BhoomiFramework_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BhoomiFramework_Example-frameworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -592,7 +592,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -622,7 +622,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -718,8 +718,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
