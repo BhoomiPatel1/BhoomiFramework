@@ -1,0 +1,22 @@
+{
+  "name": "BhoomiFramework",
+  "version": "0.1.0",
+  "summary": "A short description of BhoomiFramework.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/BhoomiPatel1/BhoomiFramework",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "BhoomiPatel1": "bhumi@itoneclick.com"
+  },
+  "source": {
+    "git": "https://github.com/BhoomiPatel1/BhoomiFramework.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "BhoomiFramework/Classes/**/*"
+}

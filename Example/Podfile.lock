@@ -1,0 +1,16 @@
+PODS:
+  - BhoomiFramework (0.1.0)
+
+DEPENDENCIES:
+  - BhoomiFramework (from `../`)
+
+EXTERNAL SOURCES:
+  BhoomiFramework:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BhoomiFramework: 469e966e02305d55c59429079a136286a1193abe
+
+PODFILE CHECKSUM: b87d7605e7e5edaaacb065c899326686a4de6e2a
+
+COCOAPODS: 1.10.1

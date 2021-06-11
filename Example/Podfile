@@ -4,6 +4,7 @@ platform :ios, '9.0'
 
 target 'BhoomiFramework_Example' do
   pod 'BhoomiFramework', :path => '../'
+  
 
   target 'BhoomiFramework_Tests' do
     inherit! :search_paths
