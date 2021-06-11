@@ -1,11 +1,11 @@
 
 
 import UIKit
-import Reachability
-import FirebaseMessaging
-import Material
-import CoreLocation
-import SwifterSwift
+//import Reachability
+//import FirebaseMessaging
+//import Material
+//import CoreLocation
+////import SwifterSwift
 
 class UtilityClass: NSObject
 {
@@ -71,16 +71,16 @@ class UtilityClass: NSObject
     }
     
     // MARK:- Check Internet
-    class func isInternetHasConnectivity() -> Bool {
-        
-        do {
-            let flag = try Reachability().isReachable
-            return flag
-        }catch{
-            return false
-            
-        }
-    }
+//    class func isInternetHasConnectivity() -> Bool {
+//        
+//        do {
+//            let flag = try Reachability().isReachable
+//            return flag
+//        }catch{
+//            return false
+//            
+//        }
+//    }
     
     class func getDirectoryPath() -> String {
         let paths = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)
@@ -120,14 +120,14 @@ class UtilityClass: NSObject
     }
     
     //MARK:- Get firebase token
-    class func getFirebaseToken() -> String
-    {
-        if let tokenStr = Messaging.messaging().fcmToken
-        {
-            return tokenStr
-        }
-        return ""
-    }
+//    class func getFirebaseToken() -> String
+//    {
+//        if let tokenStr = Messaging.messaging().fcmToken
+//        {
+//            return tokenStr
+//        }
+//        return ""
+//    }
     
     //MARK:- setip Attributed string
     class func SetupAttributeString(MainText: String,Range : String, type: String, color: UIColor?, size: CGFloat, fontname : String? = "Poppins-Medium") -> NSAttributedString{
@@ -212,50 +212,51 @@ class UtilityClass: NSObject
     }
     
     //MARK:- Setup Material TextField
-    class func SetupTextField(_ textfield: TextField, _ name : String, textColor: UIColor, placeholderActiveColor : UIColor, dividerActiveColor: UIColor, dividerNormalColor : UIColor, placeholderNormalColor: UIColor)
-    {
-        textfield.placeholder = name
-        textfield.textColor =  textColor
-        textfield.isClearIconButtonEnabled = false
-        textfield.isPlaceholderUppercasedWhenEditing = false
-        textfield.placeholderAnimation = .default
-        textfield.placeholderActiveColor = placeholderActiveColor
-        textfield.dividerActiveColor = dividerActiveColor
-        textfield.dividerNormalColor = dividerNormalColor
-        textfield.dividerActiveHeight = 1.0
-        textfield.dividerNormalHeight = 1.0
-        textfield.detailColor = UIColor.red
-        textfield.detailLabel.font = UIFont.init(name: "Poppins-Regular", size: 10)
-//        textfield.detailVerticalOffset = -0.5
-        textfield.placeholderVerticalOffset = 10
-        textfield.placeholderNormalColor = placeholderNormalColor
-        textfield.autocorrectionType = .no
-
-        textfield.placeholderLabel.font =  UIFont.init(name: "Poppins-Regular", size: 10)
-        textfield.font =  UIFont.init(name: "Poppins-Regular", size: 12)
-//        if textfield.tag == 123{
-//            textfield.placeholderLabel.font =  UIFont.init(name: "Poppins-Regular", size: 10)
-//        }
-        textfield.minimumFontSize = 8
-        
-        self.textFieldKerning(0.45, textfield)
-        
-    }
+//    class func SetupTextField(_ textfield: TextField, _ name : String, textColor: UIColor, placeholderActiveColor : UIColor, dividerActiveColor: UIColor, dividerNormalColor : UIColor, placeholderNormalColor: UIColor)
+//    {
+//        textfield.placeholder = name
+//        textfield.textColor =  textColor
+//        textfield.isClearIconButtonEnabled = false
+//        textfield.isPlaceholderUppercasedWhenEditing = false
+//        textfield.placeholderAnimation = .default
+//        textfield.placeholderActiveColor = placeholderActiveColor
+//        textfield.dividerActiveColor = dividerActiveColor
+//        textfield.dividerNormalColor = dividerNormalColor
+//        textfield.dividerActiveHeight = 1.0
+//        textfield.dividerNormalHeight = 1.0
+//        textfield.detailColor = UIColor.red
+//        textfield.detailLabel.font = UIFont.init(name: "Poppins-Regular", size: 10)
+////        textfield.detailVerticalOffset = -0.5
+//        textfield.placeholderVerticalOffset = 10
+//        textfield.placeholderNormalColor = placeholderNormalColor
+//        textfield.autocorrectionType = .no
+//
+//        textfield.placeholderLabel.font =  UIFont.init(name: "Poppins-Regular", size: 10)
+//        textfield.font =  UIFont.init(name: "Poppins-Regular", size: 12)
+////        if textfield.tag == 123{
+////            textfield.placeholderLabel.font =  UIFont.init(name: "Poppins-Regular", size: 10)
+////        }
+//        textfield.minimumFontSize = 8
+//
+//        self.textFieldKerning(0.45, textfield)
+//
+//    }
     
  
 
     
     //MARK:- Open URL
+    @available(iOS 10.0, *)
     class func openURL(_ str : String){
         guard let url = URL(string: str) else { return }
         UIApplication.shared.open(url, options: [:], completionHandler: nil)
     }
     
     //MARK:- add shadow and radius to view
-    class func addshadowAndRadius(_ view1 : UIView, _ radius : CGFloat, shadowColor : UIColor){
-        view1.layer.cornerRadius = radius
-        view1.addShadow(ofColor: shadowColor, radius: 3.5, offset:CGSize(width: 0, height: 3), opacity: 0.5)
-    }
+//    class func addshadowAndRadius(_ view1 : UIView, _ radius : CGFloat, shadowColor : UIColor){
+//        view1.layer.cornerRadius = radius
+//        view1.addShadow(ofColor: shadowColor, radius: 3.5, offset:CGSize(width: 0, height: 3), opacity: 0.5)
+//    }
     
     
     //MARK:- add image with label text
@@ -340,68 +341,68 @@ class UtilityClass: NSObject
  
     
     //MARK:- Get Address from lat long
-    class func getAddressFromLatLon(_ pdblLatitude: String, _ pdblLongitude: String) -> String
-    {
-        var center : CLLocationCoordinate2D = CLLocationCoordinate2D()
-        let lat: Double = Double("\(pdblLatitude)")!
-        //21.228124
-        let lon: Double = Double("\(pdblLongitude)")!
-        //72.833770
-        let ceo: CLGeocoder = CLGeocoder()
-        center.latitude = lat
-        center.longitude = lon
-        
-        
-        
-        let loc: CLLocation = CLLocation(latitude:center.latitude, longitude: center.longitude)
-        var addressString : String = ""
-        
-        ceo.reverseGeocodeLocation(loc, completionHandler:
-                                    {(placemarks, error) in
-                                        if (error != nil)
-                                        {
-                                            print("reverse geodcode fail: \(error!.localizedDescription)")
-                                        }
-                                        
-                                        if placemarks != nil{
-                                            
-                                            let pm = placemarks! as [CLPlacemark]
-                                            
-                                            if pm.count > 0 {
-                                                let pm = placemarks![0]
-                                                print(pm.country)
-                                                print(pm.locality)
-                                                print(pm.subLocality)
-                                                print(pm.thoroughfare)
-                                                print(pm.postalCode)
-                                                print(pm.subThoroughfare)
-                                                
-                                                if pm.subLocality != nil {
-                                                    addressString = addressString + pm.subLocality! + ", "
-                                                }
-                                                if pm.thoroughfare != nil {
-                                                    addressString = addressString + pm.thoroughfare! + ", "
-                                                }
-                                                if pm.locality != nil {
-                                                    addressString = addressString + pm.locality! + ", "
-                                                }
-                                                if pm.country != nil {
-                                                    addressString = addressString + pm.country! + ", "
-                                                }
-                                                if pm.postalCode != nil {
-                                                    addressString = addressString + pm.postalCode! + " "
-                                                }
-                                                
-                                                print(addressString)
-                                                
-                                            }
-                                        }
-                                        
-                                    })
-        
-        return addressString
-        
-    }
+//    class func getAddressFromLatLon(_ pdblLatitude: String, _ pdblLongitude: String) -> String
+//    {
+//        var center : CLLocationCoordinate2D = CLLocationCoordinate2D()
+//        let lat: Double = Double("\(pdblLatitude)")!
+//        //21.228124
+//        let lon: Double = Double("\(pdblLongitude)")!
+//        //72.833770
+//        let ceo: CLGeocoder = CLGeocoder()
+//        center.latitude = lat
+//        center.longitude = lon
+//
+//
+//
+//        let loc: CLLocation = CLLocation(latitude:center.latitude, longitude: center.longitude)
+//        var addressString : String = ""
+//
+//        ceo.reverseGeocodeLocation(loc, completionHandler:
+//                                    {(placemarks, error) in
+//                                        if (error != nil)
+//                                        {
+//                                            print("reverse geodcode fail: \(error!.localizedDescription)")
+//                                        }
+//
+//                                        if placemarks != nil{
+//
+//                                            let pm = placemarks! as [CLPlacemark]
+//
+//                                            if pm.count > 0 {
+//                                                let pm = placemarks![0]
+//                                                print(pm.country)
+//                                                print(pm.locality)
+//                                                print(pm.subLocality)
+//                                                print(pm.thoroughfare)
+//                                                print(pm.postalCode)
+//                                                print(pm.subThoroughfare)
+//
+//                                                if pm.subLocality != nil {
+//                                                    addressString = addressString + pm.subLocality! + ", "
+//                                                }
+//                                                if pm.thoroughfare != nil {
+//                                                    addressString = addressString + pm.thoroughfare! + ", "
+//                                                }
+//                                                if pm.locality != nil {
+//                                                    addressString = addressString + pm.locality! + ", "
+//                                                }
+//                                                if pm.country != nil {
+//                                                    addressString = addressString + pm.country! + ", "
+//                                                }
+//                                                if pm.postalCode != nil {
+//                                                    addressString = addressString + pm.postalCode! + " "
+//                                                }
+//
+//                                                print(addressString)
+//
+//                                            }
+//                                        }
+//
+//                                    })
+//
+//        return addressString
+//
+//    }
     
     class func buttonGrediant(button: UIButton, color1: UIColor, color2: UIColor, cornerRadius: CGFloat){
         let gradientLayer = CAGradientLayer()
